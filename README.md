@@ -14,5 +14,5 @@ VS Code kullanarak yaptığım oyunda, oyuncu mouse kullanarak üzerine gelen ca
 game.exe üzerine çift tıklanarak açılır.
 
 ## Kullanılan Teknolojiler
-- C
+- C++
 - SFML
