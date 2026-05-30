@@ -6,7 +6,7 @@
 #include <optional>
 #include <string>
 
-// ================= MERMI =================
+// ================ MERMI ================
 
 class Bullet
 {
@@ -46,7 +46,7 @@ public:
     }
 };
 
-// ================= DUSMAN =================
+// ================ DUSMAN ================
 
 class Enemy
 {
@@ -99,13 +99,13 @@ public:
     }
 };
 
-// ================= MAIN =================
+// ================ MAIN ================
 
 int main()
 {
     std::srand(static_cast<unsigned>(std::time(nullptr)));
 
-    // ================= PENCERE =================
+    // ================ PENCERE ================
 
     sf::RenderWindow window(
         sf::VideoMode({800, 600}),
@@ -114,7 +114,7 @@ int main()
 
     window.setFramerateLimit(60);
 
-    // ================= TEXTURE =================
+    // ================ TEXTURE ================
 
     sf::Texture playerTexture;
     sf::Texture enemyTexture;
